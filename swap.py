@@ -3,6 +3,7 @@ b=int(input("Enter B:"))
 def swap(x,y):
     global a
     global b
+    x=a
     a=x
     b=y
     a=a+b
